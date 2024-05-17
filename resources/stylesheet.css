@@ -1,0 +1,185 @@
+
+/* Universal styles */ 
+
+h2, h3 {
+    font-family: 'Permanent Marker', cursive;
+    color: whitesmoke;
+  }
+
+  h2 {
+    font-size: 5rem;
+  } 
+
+  h3 {
+    font-size: 3.75rem;
+  } 
+
+  p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+  }
+
+  .flex-container {
+    display: flex;
+    justify-content: center;
+  }
+
+/* Top section */ 
+
+header {
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+} 
+
+.logo {
+    background-color: darkgreen;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+  } 
+  
+  header img {
+    height: 75px;
+  } 
+  
+  .navbar {
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    background-color: sienna;
+    width: 100%;
+  } 
+  
+  .navbar a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+  } 
+
+/* Section 1 */ 
+
+  #welcome {
+    background-image: url("https://offloadmedia.feverup.com/secretlosangeles.com/wp-content/uploads/2019/09/22095737/shutterstock_1202725207-1.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 35em;
+    text-align: center;
+    filter: brightness(85%);
+  }
+  
+  .welcome-items {
+    margin-top: 12.5%;
+  }
+
+  .welcome-items button {
+    background-color: darkgreen;
+    color: whitesmoke;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    border-style: none;
+    height: 2.5rem;
+    width: 12em;
+    border-radius: 1rem;
+  }
+
+  /* Section 2 */ 
+
+  .heading {
+    float: left;
+    width: 35%;
+    margin-left: 3rem;
+    margin-top: 3em;
+  }
+
+
+  #about {
+    background-color: sienna;
+    height: 25em;
+    margin: 0;
+  }
+
+#about-flex {
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    height: 100%;
+    margin-left: 30rem;
+    max-width: 35rem;
+    margin: 0;
+    max-width: 66rem;
+    padding-left: 10rem;
+}
+
+
+/* Section 3 */ 
+
+#locations {
+    background-image: url('https://www.thesun.co.uk/wp-content/uploads/2021/05/NINTCHDBPICT000655648097.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 35em;
+    text-align: center;
+    filter: brightness(85%);
+    margin-top: -60;
+}
+
+#locations h3 {
+  padding-top: 4rem;
+} 
+
+
+
+.addresses {
+    display: flex;
+    justify-content: space-around;
+    height: 100%;
+    margin: 0;
+}
+
+.location-box {
+    background-color: darkgreen;
+    color: whitesmoke;
+    padding: 2rem;
+    height: 9rem;
+}
+
+/* Section 4 */
+
+#team {
+  background-color: darkgreen;
+  height: 500px;;
+  margin: 0;
+  text-align: center;
+  margin-top: -60;
+}
+
+#team img {
+  width: 16rem;
+  height: 12.5rem;
+  padding: 0 3rem;
+
+}
+
+#team .container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: space-between;
+} 
+
+#team figcaption {
+  color: #ffffff;
+  font-family: Helvetica, sans-serif;
+  margin-top: 2rem;
+}
+
+footer {
+  background-color: sienna;
+  height: 40px;
+  width: 100%;
+} 
+
+footer p {
+  justify-content: center;
+} 
